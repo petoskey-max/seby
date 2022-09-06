@@ -1,0 +1,122 @@
+
+
+a{
+    text-decoration: none;
+}
+.box{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(163, 157, 157);
+    
+}
+
+.box1{
+    
+    background-color: #0d98ba;
+    background-size: cover;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+   
+}
+.peeps{
+    font-size: 100px;
+}
+.peep{
+    margin-top: -60px;
+    font-size: 80px;
+}
+.last{
+    background-color: #0d98ba;
+
+}
+.give{
+    font-size: 40px;background-color: #0d98ba;
+
+
+}
+.user{
+    background-color: #0d98ba;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 2px  rgba(0, 0, 0, 0.5), 
+     0px 2px 4px  rgba(0, 0, 0, 0.1),
+      0px 4px 8px  rgba(0, 0, 0, 0.1), 
+      0px 8px 16px  rgba(0, 0, 0, 0.1); 
+    
+}
+.bit{
+    margin-top: -10px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #0d98ba;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    justify-content: space-evenly;
+    
+}
+.ready>p{
+    color: 2px solid black;
+}
+
+input[type="email"]{
+    background: rgb(204, 204, 204);
+    border: 2px solid rgb(26, 126, 207);
+    
+}
+
+.key{
+    width: 400px;
+}
+input[type="email"]:focus{
+    background: none;
+    border: 2px solid rgb(26, 126, 207);
+    
+    box-shadow: none;
+}
+
+input[type="text"]{
+    background: rgb(204, 204, 204);
+    border: 2px solid rgb(26, 126, 207);
+    
+}
+input[type="text"]:focus{
+    background: none;
+    border: 2px solid rgb(26, 126, 207);
+    
+    box-shadow: none;
+}
+
+input[type="password"]{
+    background: rgb(204, 204, 204);
+    border: 2px solid rgb(26, 126, 207);
+    
+}
+input[type="password"]:focus{
+    background: none;
+    border: 2px solid rgb(26, 126, 207);
+    
+    box-shadow: none;
+}
+input[type="month"]{
+    background: rgb(204, 204, 204);;
+    border: 2px solid rgb(26, 126, 207);
+    
+}
+input[type="month"]:focus{
+    background: none;
+    border: 2px solid rgb(26, 126, 207);
+    
+    box-shadow: none;
+}
+input[type="text"]::placeholder{
+   padding-left: 275px;
+}    
+.btn{
+    box-shadow: none !important;
+}
+.mole{
+    width: 150px;
+    height: 40px;
+}
